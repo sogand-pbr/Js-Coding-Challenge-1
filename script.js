@@ -1,4 +1,4 @@
-//testData1
+///testData1
 let MarksMass=78;
 let Marksheight=1.69;
 let JohnMass=92;
@@ -15,3 +15,9 @@ let MarkHigherBMI=console.log(MarksBMI>JohansBMI);
 JohansBMI =JohnMass / Johansheight**2;
 MarksBMI =MarksMass / Marksheight**2;
 MarkHigherBMI=console.log(MarksBMI>JohansBMI);
+////
+if (MarksBMI>JohansBMI){
+ console.log(`Marks BMI (${MarksBMI}) is higher than Johns BMI (${JohansBMI})`)
+} else {
+ console.log(`johns BMI (${JohansBMI}) is higher than Marks BMI (${MarksBMI})`)
+}
